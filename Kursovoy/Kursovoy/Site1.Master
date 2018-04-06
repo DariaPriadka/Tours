@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Kursovoy.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Туроператор "Fly To Dubai"</title>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server" >
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div id="top_bar_blue">
+         <div id="reg_block">
+        &nbsp;
+       <!-- <a class= "button_reg" href = "#">Регистрация</a>
+        <a class= "button_in" href = "#">Войти</a>-->
+             <asp:Label ID="status_label" runat="server" BackColor="White" CssClass="auth" Height="20px" Text="СТАТУС: незарегистрирован" Width="233px"></asp:Label>
+             <br />
+             <asp:Label ID="Label1" runat="server" CssClass="log_label" Text="Логин: "></asp:Label>
+             <asp:TextBox ID="loginTB" runat="server" CssClass="auth_button" Height="20px" Width="168px"></asp:TextBox>
+             <br />
+             <asp:Label ID="password_label" runat="server" CssClass="log_label" Text="Пароль:"></asp:Label>
+             <asp:TextBox ID="loginTB2" runat="server" CssClass="auth_button1" Height="20px" Width="168px" TextMode="Password"></asp:TextBox>
+
+             <asp:Button ID="Button1" runat="server" BackColor="#DAFDFE" CssClass="button_reg" Text="Регистрация" OnClick="Button1_Click" />
+             <asp:Button ID="Button2" runat="server" BackColor="#DAFDFE" CssClass="button_in" Text="Войти" OnClick="Button2_Click" />
+             <asp:LinkButton ID="cabinet_LB" runat="server" CssClass="cabinet_link" ForeColor="Black" OnClick="cabinet_LB_Click">Личный кабинет</asp:LinkButton>
+
+             <asp:LinkButton ID="cabinet_LB2" runat="server" CssClass="cabinet_link" ForeColor="Black" OnClick="cabinet_LB_Click">Администратор</asp:LinkButton>
+
+             <asp:Button ID="Button3" runat="server" BackColor="#DAFDFE" CssClass="button_in" Text="Выйти" OnClick="Button3_Click" />
+
+        </div>
+    </div> 
+ <div id="menu">
+<ul>     
+    <li><a href="main.aspx">Главная |</a></li>
+        <li><a href="tours.aspx"> Туры </a></li>
+        <li><a href="#">| О стране |</a></li>                           
+    </ul>
+     </div>
+         <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:fly_to_dubaiConnectionString %>" SelectCommand="SELECT * FROM [Airport]"></asp:SqlDataSource>
+             </asp:ContentPlaceHolder>
+    <div id="footer"><p></p>Контактный телефон: +380997396204<p></p>
+    Адрес: г.Харьков, Журавлевский спуск, 6 (5 этаж, офис 501) </div>
+    </form>
+</body>
+</html>

@@ -3,3 +3,7 @@ C:\Users\Daria\Documents\Visual Studio 2012\Projects\Kursovoy\Kursovoy\bin\Kurso
 C:\Users\Daria\Documents\Visual Studio 2012\Projects\Kursovoy\Kursovoy\obj\Debug\Kursovoy.dll
 C:\Users\Daria\Documents\Visual Studio 2012\Projects\Kursovoy\Kursovoy\obj\Debug\Kursovoy.pdb
 C:\Users\Daria\Documents\Visual Studio 2012\Projects\Kursovoy\Kursovoy\obj\Debug\Kursovoy.csprojResolveAssemblyReference.cache
+C:\Users\Daria\Documents\GitHub\kurs\Kursovoy\Kursovoy\bin\Kursovoy.dll
+C:\Users\Daria\Documents\GitHub\kurs\Kursovoy\Kursovoy\bin\Kursovoy.pdb
+C:\Users\Daria\Documents\GitHub\kurs\Kursovoy\Kursovoy\obj\Debug\Kursovoy.dll
+C:\Users\Daria\Documents\GitHub\kurs\Kursovoy\Kursovoy\obj\Debug\Kursovoy.pdb

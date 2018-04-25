@@ -73,6 +73,10 @@ body{
     text-decoration: none;
     margin-bottom: 0px;
 }
+.dropdown {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 #reg_block a:hover{
     background: #99effc;
     color:black;

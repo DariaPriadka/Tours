@@ -28,6 +28,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -58,6 +59,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin_cabinet.aspx" />
+    <Content Include="booking.aspx" />
+    <Content Include="Img\Al Mamzar.jpg" />
+    <Content Include="Img\Burj-Al-Arab.jpg" />
+    <Content Include="Img\Citymax.jpg" />
+    <Content Include="Img\Dubai Park.jpg" />
+    <Content Include="Img\Golden Tower.jpg" />
+    <Content Include="Img\Hilton.jpg" />
+    <Content Include="Img\Hotel Souk.jpg" />
+    <Content Include="Img\Mercure.jpg" />
+    <Content Include="Img\Midnight Island.jpg" />
+    <Content Include="Img\Palm Garden.jpg" />
+    <Content Include="Img\Princess Tower.jpg" />
+    <Content Include="Img\Sheraton.jpg" />
     <Content Include="Img\top_tur.png" />
     <Content Include="Img\towers.png" />
     <Content Include="main.aspx" />
@@ -74,6 +88,13 @@
     </Compile>
     <Compile Include="admin_cabinet.aspx.designer.cs">
       <DependentUpon>admin_cabinet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="booking.aspx.cs">
+      <DependentUpon>booking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="booking.aspx.designer.cs">
+      <DependentUpon>booking.aspx</DependentUpon>
     </Compile>
     <Compile Include="main.aspx.cs">
       <DependentUpon>main.aspx</DependentUpon>
